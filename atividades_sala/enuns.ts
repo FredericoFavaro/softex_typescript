@@ -10,6 +10,7 @@ enum TipoVeiculo {
 }
 
 enum TipoUsuario{
+    [[[[]]]]
     admin = "Administrador",
     funcionario = "Funcionário",
     visitante = "Visitante",
