@@ -1,3 +1,5 @@
+///https://pt.stackoverflow.com/questions/25619/composi%C3%A7%C3%A3o-e-agrega%C3%A7%C3%A3o-quais-as-diferen%C3%A7as-e-como-usar
+
 interface Pessoa {
     nome: string;
     idade: number;
@@ -28,15 +30,7 @@ export class funcionario implements Funcionario {
     dormir(): void{console.log("respirando")};
     trabalhar(): void{console.log("respirando")};
     happyHour(): void{console.log("respirando")};
-    constructor( 
-        nome: string;
-        idade: number;
-        nacionalidade: string;
-        id: number;
-        funcao: string;
-        tempo: number;
-        matricula: number;
-    )
+    constructor(nome: string, idade: number, nacionalidade: string, id: number, funcao: string, tempo: number, matricula: number){}
     }
 
-funcionario1 = new funcionario("joao")
+let funcionario1 = new funcionario("joao",22,"Br",2141,"tester", 2,2424)
